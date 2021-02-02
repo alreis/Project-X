@@ -31,12 +31,12 @@ function Header() {
   const classes = useStyles();
 
   return (
-    <AppBar position='fixed' color='inherit' className={classes.appBar}>
+    <AppBar position="fixed" color="inherit" className={classes.appBar}>
       <Toolbar>
         <img src="/images/logo.svg" alt="logo" className={classes.img}/>
         <div className={classes.grow}></div>
         <div className={classes.userSection}>
-          <Button variant='contained' color='primary' className={classes.button}>
+          <Button variant="contained" color="primary" className={classes.button}>
             New Post
           </Button>
           <SvgIcon className={classes.bell}>
